@@ -32,8 +32,6 @@ cd ..
 ### Prepare Nucleome Browser configuration file
 The configure file is an Excel file or a Google Spreadsheet. We recommend using Google Spreadsheet because it is stored in the cloud and easier to share with others. You can view an example of Google Spreadsheet I made for the demo data [https://docs.google.com/spreadsheets/d/1LorLgN_8J-SdWf_XC6ZL_TBhijiaQ2UElFdSJ_UMgtM/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1LorLgN_8J-SdWf_XC6ZL_TBhijiaQ2UElFdSJ_UMgtM/edit?usp=sharing). You can read a more detailed explanation of this Spreadsheet on the documentation site [https://nb-docs.readthedocs.io/en/latest/data_service.html#data-type-supported](https://nb-docs.readthedocs.io/en/latest/data_service.html#data-type-supported).
 
-Next, you have to make the spreadsheet public by allowing anyone with the link to view this spreadsheet. 
-
 ### Start a local data service
 Copy the Google Spreadsheet Id (**1LorLgN_8J-SdWf_XC6ZL_TBhijiaQ2UElFdSJ_UMgtM**) and use it as a argument for nucleserver. You can start a local data service using the following command (**nucleserver start**). **-i** is the Google Spreadsheet ID or the path to local excel file. Here **-p** indicates the port number. This number will be used later. You can use any ports not occupied in your machine.
 ```
