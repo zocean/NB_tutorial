@@ -7,7 +7,7 @@ Suppose we start from bedgraph file `ebv_2_hap2_w50000.bg`, we need to first con
 
 ```
 # convert bedgraph into sorted bedgraph file and fix the issue with chromosome name
-cat ebv_2_hap2_w50000.bg | sort -k1,1 -k2,2n | awk '{"printf(chr%st%st%st%s\n", $1, $2, $3, $4)}' >ebv_2_hap2_w50000.bg.sort
+cat ebv_2_hap2_w50000.bg | sort -k1,1 -k2,2n | awk '{printf("chr%st%st%st%s\n", $1, $2, $3, $4)}' >ebv_2_hap2_w50000.bg.sort
 # convert bedgraph into bigwig file
 bedGraphToBigWig ebv_2_hap2_w50000.bg.sort hg19.genome ebv_2_hap2_w50000.bw
 ```
