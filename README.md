@@ -13,7 +13,7 @@ bedGraphToBigWig ebv_2_hap2_w50000.bg.sort hg19.genome ebv_2_hap2_w50000.bw
 ```
 
 ### Install NucleServer
-Open this link [https://github.com/nucleome/nucleserver/releases/download/v0.1.9/](https://github.com/nucleome/nucleserver/releases/download/v0.1.9/)in your web browser, and choose the right version that matches with your operating system. For Mac and Linux, you can use `nucleserver_0.1.9_linux_amd64.tar.gz`. 
+Open this link [https://github.com/nucleome/nucleserver/releases/tag/v0.1.9](https://github.com/nucleome/nucleserver/releases/tag/v0.1.9/)in your web browser, and choose the right version that matches with your operating system. For Mac and Linux, you can use `nucleserver_0.1.9_linux_amd64.tar.gz`. 
 
 ```
 # create a folder called NucleServer
